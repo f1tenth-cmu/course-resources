@@ -1,4 +1,4 @@
-# Lab 0.5: Setup Jetson and Vehicle
+# Course Resources
 
 ## Table of Contents
 - [Resources to keep handy throughout the course](#resources-to-keep-handy-throughout-the-course)
