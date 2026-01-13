@@ -18,9 +18,9 @@
 - [Software setup troubleshooting]
 
 ### Course Resources
-- [Schedule]
-- [Setting up Simulator]
-- [Labs on GitHub](https://github.com/f1tenth-cmu)
+- [Schedule](https://docs.google.com/spreadsheets/d/1bt0gH0tqr_f2XELPPG4ZS8G0aTcS5gUXa9uPqXclwCM/edit?gid=1504543077#gid=1504543077)
+- [Setting up Simulator](https://github.com/f1tenth-cmu/f1tenth_gym_ros)
+- [Labs on GitHub](https://github.com/orgs/f1tenth-cmu/repositories)
 
 ## Jetson Setup
 
@@ -42,7 +42,7 @@ For some background, our goal is to flash Jetpack 6.2 ([what is JetPack?](https:
 
 - [Instructions to check my UEFI version](https://www.jetson-ai-lab.com/tutorials/initial-setup-jetson-orin-nano/#1%EF%B8%8F%E2%83%A3-check-if-jetson-uefi-firmware-version--360)
 
-NOTE: UNFINISHED (all the information can be figured out from the startup guide, though) 
+NOTE: UNFINISHED (all further information can be figured out from the startup guide linked above, though) 
 
 ## Vehicle Configuration & Setup
 
