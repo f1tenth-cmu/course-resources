@@ -60,7 +60,15 @@ NOTE: UNFINISHED (all the information can be figured out from the startup guide,
 > [!NOTE]
 > CHECKPOINT: if you don't yet understand how ROS2 works, ensure you've worked through the LAB 1 exercises and talk to your TAs if you have any questions. The following instructions assume basic familiarity with ROS2. It also assumes that the Hokuyo LiDAR and VESC have been configured. 
 
-1. Install ROS2 from the bash script in `scripts/install_ros2_humble.sh` *this will ensure that we install other required dependencies and initialize certain tools, like rosdep to work correctly.*
+1. Install ROS2 from the install bash script as follows 
+
+```bash
+chmod +x scripts/install_ros2_humble.sh
+sudo .scripts/install_ros2_humble.sh
+```
+
+*this will ensure that we install other required dependencies and initialize certain tools, like rosdep to work correctly.*
+
 2. Create a folder in your main home directory called `f1tenth_ws`. You can also pick a different name, but the `*_ws` format is standard for ROS2 workspaces. Make a `src/` directory within the workspace 
 
 > [!TIP]
