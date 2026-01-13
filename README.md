@@ -6,7 +6,6 @@
   - [Course Resources](#course-resources)
 - [Jetson Setup](#jetson-setup)
   - [Flashing](#flashing)
-  - [Flashing via SD Card](#flashing-via-sd-card)
 - [Vehicle Configuration & Setup](#vehicle-configuration--setup)
 - [Software Setup](#software-setup-ubuntu-2204-ros2-humble)
 
@@ -31,18 +30,6 @@
 > Below are several NVIDIA resources to get started on flashing the OS.
 > - [Startup Guide](https://www.jetson-ai-lab.com/tutorials/initial-setup-jetson-orin-nano/)
 > - [Moving OS from SD card to SSD](https://www.jetson-ai-lab.com/tutorials/ssd-docker-setup/) *Only needed if you didn't flash directly to the SSD*
-
-### Flashing via SD Card
-> [!CAUTION]
-> The information below only applies to the SD-card setup. If you are using the NVIDIA SDK Manager on a Linux PC, this is all done automatically for you.
-
-*This information is provided in greater detail in the startup guide linked above.*
-
-For some background, our goal is to flash Jetpack 6.2 ([what is JetPack?](https://docs.nvidia.com/jetson/jetpack/introduction/index.html)) which includes a version of Ubuntu 22.04. This only works directly if the board's UEFI version (firmware that starts up the OS and hardware) is `>v36.0`. Older Jetsons are often at `v35.x` and have to be updated to `v36.x` first, before the SD card with JetPack 6.2 just works. 
-
-- [Instructions to check my UEFI version](https://www.jetson-ai-lab.com/tutorials/initial-setup-jetson-orin-nano/#1%EF%B8%8F%E2%83%A3-check-if-jetson-uefi-firmware-version--360)
-
-NOTE: UNFINISHED (all further information can be figured out from the startup guide linked above, though) 
 
 ## Vehicle Configuration & Setup
 
