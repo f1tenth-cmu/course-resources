@@ -1,5 +1,11 @@
 # Course Resources
 
+> [!NOTE]
+> This is the first semester we are including this GitHub Repository. As such it may be incomplete as it is. 
+> If you find any resources that you think may help other students (or yourself later down the line) please open a PR, or message one of the TAs and we'll add it to this Repo. 
+> 
+> Thanks! - Arya
+ 
 ## Table of Contents
 - [Resources to keep handy throughout the course](#resources-to-keep-handy-throughout-the-course)
   - [Build / Software](#build--software)
