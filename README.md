@@ -20,6 +20,12 @@
 - [Schedule](https://docs.google.com/spreadsheets/d/1bt0gH0tqr_f2XELPPG4ZS8G0aTcS5gUXa9uPqXclwCM/edit?gid=1504543077#gid=1504543077)
 - [Setting up Simulator](https://github.com/f1tenth-cmu/f1tenth_gym_ros)
 - [Labs on GitHub](https://github.com/orgs/f1tenth-cmu/repositories)
+- Tutorials
+  - T01: [Intro to ROS2 & Docker](https://docs.google.com/presentation/d/1K31co8v4USm4_2cESYuqjPNqZoQiCe2PUaLETszIGgs/edit?usp=sharing)
+  - T02: [Intro to F1Tenth Sim](https://docs.google.com/presentation/d/1gzLShZ_dFEMJVGpMChAIuLwfF2DFn4Bhhq5Du3wYgic/edit?usp=sharing)
+  - T03: [Intro to Transforms in ROS2](https://docs.google.com/presentation/d/1knS8vr1PujoWJA4fAI38UPuO3Y_6ID6j6_iHFOGQSEM/edit?usp=sharing)
+  - T04: [Setting up the F1Tenth Vehicle](https://docs.google.com/presentation/d/1qUhHTf37NphsV7j3qQJSxYWNWbWhbcixRTh88Ta6R44/edit?usp=sharing)
+  - T05: [Running SLAM and Particle Filter](https://docs.google.com/presentation/d/1Hyb1tX576u7adukdh18C8gnibawEBhmE3w5rTCdUSSM/edit?usp=sharing)
 
 ## Jetson Setup
 
