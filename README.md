@@ -107,7 +107,16 @@ sudo .scripts/install_ros2_humble.sh
 > $ cd ..
 >```
 
-6. At this point you should be ready to build. navigate to the `ws` root and run `colcon build --symlink-install`. 
+6. Install required dependencies using rosdep
+
+> [!TIP]
+> ```bash
+> # ensure you are in the workspace root (..._ws/ dir)
+> $ rosdep update
+> $ rosdep install --from-paths src --ignore-src -r -y
+> ```
+
+7. At this point you should be ready to build. navigate to the `ws` root and run `colcon build --symlink-install`. 
 
 > [!TIP]
 > A common troubleshooting technique for errors related to cmake (find_package) is to look for the corresponding package: `ros-humble-<package_name>` and install via apt

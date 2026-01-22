@@ -29,8 +29,8 @@ rosdep init
 rosdep update
 
 # below are two packages I was missing when I tried to build the f1tenth system - AL
-apt install ros-humble-diagnostics-updater
-apt install ros-humble-asio-cmake-module
+apt install -y ros-humble-diagnostics-updater
+apt install -y ros-humble-asio-cmake-module
 
 echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc
 
