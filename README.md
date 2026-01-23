@@ -19,7 +19,8 @@
 
 ### Build / Software 
 - [Build docs](https://roboracer.ai/build) *Take a quick read. This has a bunch of resources pertaining to building and calibrating the physical race car as well as initial setup of sensors. However, note that some information may be incomplete, especially regarding Jetson initial setup*
-- [Calibration troubleshooting]
+- [Calibration tutorial by Matthew Rockett](https://mushr.io/tutorials/tuning/) *tuning should be done in `f1tenth_system/f1tenth_stack/config/vesc.yaml`, where `f1tenth_system` is the ROS package that interfaces with your platform hardware itself*
+
 - [Software setup troubleshooting]
 
 ### Course Resources
@@ -59,7 +60,7 @@
 > [!NOTE]
 > CHECKPOINT: if you don't yet understand how ROS2 works, ensure you've worked through the LAB 1 exercises and talk to your TAs if you have any questions. The following instructions assume basic familiarity with ROS2. It also assumes that the Hokuyo LiDAR and VESC have been configured. 
 
-1. Install ROS2 from the install bash script as follows 
+1. Install ROS2 from the install bash script as follows (be patient, this may take some time)
 
 ```bash
 chmod +x scripts/install_ros2_humble.sh
