@@ -80,10 +80,10 @@ sudo ./scripts/install_ros2_humble.sh
 
 > [!TIP]
 > ```bash
-> $ cd f1tenth_ws/src
-> $ git clone https://github.com/f1tenth/f1tenth_system.git
-> $ cd f1tenth_system
-> $ git checkout humble-devel
+> cd f1tenth_ws/src
+> git clone https://github.com/f1tenth/f1tenth_system.git
+> cd f1tenth_system
+> git checkout humble-devel
 >```
 
 4. Ensure that you update all the submodules using the following command
@@ -97,15 +97,15 @@ sudo ./scripts/install_ros2_humble.sh
 
 > [!TIP]
 > ```bash
-> $ cd ackermann_mux
-> $ git checkout foxy-devel # No changes between foxy and humble
-> $ cd ..
-> $ cd vesc
-> $ git checkout humble
-> $ cd ..
-> $ cd teleop_tools
-> $ git checkout humble-devel
-> $ cd ..
+> cd ackermann_mux
+> git checkout foxy-devel # No changes between foxy and humble
+> cd ..
+> cd vesc
+> git checkout humble
+> cd ..
+> cd teleop_tools
+> git checkout humble-devel
+> cd ..
 >```
 
 6. Install required dependencies using rosdep
@@ -113,8 +113,8 @@ sudo ./scripts/install_ros2_humble.sh
 > [!TIP]
 > ```bash
 > # ensure you are in the workspace root (..._ws/ dir)
-> $ rosdep update
-> $ rosdep install --from-paths src --ignore-src -r -y
+> rosdep update
+> rosdep install --from-paths src --ignore-src -r -y
 > ```
 
 7. At this point you should be ready to build. navigate to the `ws` root and run `colcon build --symlink-install`. 
