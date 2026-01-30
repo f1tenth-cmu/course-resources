@@ -64,7 +64,7 @@
 
 ```bash
 chmod +x scripts/install_ros2_humble.sh
-sudo .scripts/install_ros2_humble.sh
+sudo ./scripts/install_ros2_humble.sh
 ```
 
 *this will ensure that we install other required dependencies and initialize certain tools, like rosdep to work correctly.*
