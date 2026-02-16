@@ -26,7 +26,7 @@ apt install -y ros-humble-desktop
 apt install -y ros-dev-tools
 
 rosdep init
-rosdep update
+# rosdep update # not ideal to run in sudo. Added manual instruction in readme.
 
 # below are two packages I was missing when I tried to build the f1tenth system - AL
 apt install -y ros-humble-diagnostics-updater
