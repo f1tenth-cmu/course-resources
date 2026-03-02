@@ -21,8 +21,7 @@
 - [Official build docs](https://roboracer.ai/build) *Take a quick read. This has a bunch of resources pertaining to building and calibrating the physical race car as well as initial setup of sensors. However, note that some information may be incomplete, especially regarding Jetson initial setup*
 - [Powerboard docs](https://github.com/f1tenth/f1tenth_powerboard_v10/blob/main/Powerboard_v10_1_User_Manual.pdf) *Link is to a GitHub that includes a pdf user manual for the f1tenth powerboard (teams with a green pcb)*
 - [Calibration tutorial by Matthew Rockett](https://mushr.io/tutorials/tuning/) *tuning should be done in `f1tenth_system/f1tenth_stack/config/vesc.yaml`, where `f1tenth_system` is the ROS package that interfaces with your platform hardware itself*
-
-- [Software setup troubleshooting]
+- [Troubleshooting HW](https://docs.google.com/presentation/d/17aOspYghFaaIjzCXbfeybrpw6HXEPg7DhrOtkZGGqAc/edit?slide=id.g3cc1c137361_1_0#slide=id.g3cc1c137361_1_0)
 
 ### Course Resources
 - [Schedule](https://docs.google.com/spreadsheets/d/1bt0gH0tqr_f2XELPPG4ZS8G0aTcS5gUXa9uPqXclwCM/edit?gid=1504543077#gid=1504543077)
