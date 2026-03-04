@@ -31,7 +31,7 @@
   - T01: [Intro to ROS2 & Docker](https://docs.google.com/presentation/d/1K31co8v4USm4_2cESYuqjPNqZoQiCe2PUaLETszIGgs/edit?usp=sharing)
   - T02: [Intro to F1Tenth Sim](https://docs.google.com/presentation/d/1gzLShZ_dFEMJVGpMChAIuLwfF2DFn4Bhhq5Du3wYgic/edit?usp=sharing)
   - T03: [Intro to Transforms in ROS2](https://docs.google.com/presentation/d/1knS8vr1PujoWJA4fAI38UPuO3Y_6ID6j6_iHFOGQSEM/edit?usp=sharing)
-  - T04: [Setting up the F1Tenth Vehicle](https://docs.google.com/presentation/d/1qUhHTf37NphsV7j3qQJSxYWNWbWhbcixRTh88Ta6R44/edit?usp=sharing)
+  - T04: [Setting up the F1Tenth Vehicle](https://docs.google.com/presentation/d/1VIX6R-NtJfSJvBgqPTB97jVjK3VDRPlj/edit?usp=sharing&ouid=112589921479542679821&rtpof=true&sd=true)
   - T4.5 [AIMS Makerspace & Tips for working with the Vehicle](https://docs.google.com/presentation/d/17aOspYghFaaIjzCXbfeybrpw6HXEPg7DhrOtkZGGqAc/edit?usp=sharing)
   - T05: [Running SLAM and Particle Filter](https://docs.google.com/presentation/d/1Hyb1tX576u7adukdh18C8gnibawEBhmE3w5rTCdUSSM/edit?usp=sharing)
 
